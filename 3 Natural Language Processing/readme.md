@@ -7,7 +7,7 @@ In this block, we are going to divert from our *ML for physics* perspective and 
 
 Consider running the experiment for collecting spam emails every day as discussed in the lecture. Reminder: You are receiving $n=20$ emails every day for a course of $N=1000$ days. With some probability <img src="https://render.githubusercontent.com/render/math?math=\Theta">, $x_i$ of the emails on day $i$ are spam. Derive *analytically* the formula
 
-<img src="https://render.githubusercontent.com/render/math?math=\Theta_\text{opt} = {\sum_i x_i}{nN}">
+<img src="https://render.githubusercontent.com/render/math?math=\Theta_\text{opt} = \frac{\sum_i x_i}{nN}">
 
 
 for the optimal parameter $\Theta$.  

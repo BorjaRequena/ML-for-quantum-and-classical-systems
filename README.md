@@ -5,4 +5,4 @@ You will find the code, slides and homework of the hands-on sessions organized i
 - 00 - General introduction to classical machine learning (Borja)
 - 01 - Deep learning for computer vision (Alexandre and Gabriel)
 - 02 - Interpretability techniques (Anna)
-- 03 - Generative models (Korbinian)
+- 03 - Natural Language Processing (Korbinian)

@@ -5,10 +5,12 @@ In this block, we are going to divert from our *ML for physics* perspective and 
 
 ### 0. Maths warmup
 
-Consider running the experiment for collecting spam emails every day as discussed in the lecture. Reminder: You are receiving $n=20$ emails every day for a course of $N=1000$ days. With some probability $\Theta$, $x_i$ of the emails on day $i$ are spam. Derive *analytically* the formula
+Consider running the experiment for collecting spam emails every day as discussed in the lecture. Reminder: You are receiving $n=20$ emails every day for a course of $N=1000$ days. With some probability <img src="https://render.githubusercontent.com/render/math?math=\Theta">, $x_i$ of the emails on day $i$ are spam. Derive *analytically* the formula
+
 $$
 \Theta_\text{opt} = {\sum_i x_i}{nN}
 $$
+
 for the optimal parameter $\Theta$.  
 
 *Help:* You need to minimize the negative log-likelihood $\sum_i \log(p_\Theta(x_i))$ with respect to $\Theta$ and you know that this process follows a binomial distribution $p_\Theta(x) = \binom{n}{x} \Theta^x (1-\Theta)^{n-x}$
